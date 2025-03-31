@@ -1,0 +1,122 @@
+{
+  "title": "Você seria um herói ou vilão?",
+  "description": "Descubra se seus instintos superpoderosos são mais heróicos ou vilanescos!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual superpoder você escolheria?",
+      "options": [
+        {"id": 1, "name": "Raios laser pelos olhos", "alias": "A"},
+        {"id": 2, "name": "Voar", "alias": "B"},
+        {"id": 3, "name": "Manipular mentes", "alias": "A"},
+        {"id": 4, "name": "Curar feridas", "alias": "B"},
+        {"id": 5, "name": "Invisibilidade", "alias": "C"},
+        {"id": 6, "name": "Super força", "alias": "C"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Quem você salvaria primeiro em uma emergência?",
+      "options": [
+        {"id": 1, "name": "Crianças", "alias": "B"},
+        {"id": 2, "name": "Idosos", "alias": "B"},
+        {"id": 3, "name": "Meu mentor/aliado", "alias": "C"},
+        {"id": 4, "name": "Ninguém, cuidaria de mim primeiro", "alias": "A"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual sua maior preocupação ao enfrentar outro super ser?",
+      "options": [
+        {"id": 1, "name": "Não destruir prédios", "alias": "B"},
+        {"id": 2, "name": "Derrotar o inimigo a qualquer custo", "alias": "A"},
+        {"id": 3, "name": "Não deixar ninguém se ferir", "alias": "B"},
+        {"id": 4, "name": "Como ficarei famoso depois disso", "alias": "A"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual o seu maior objetivo como super ser?",
+      "options": [
+        {"id": 1, "name": "Ficar rico e poderoso", "alias": "A"},
+        {"id": 2, "name": "Proteger os inocentes", "alias": "B"},
+        {"id": 3, "name": "Vingança contra quem me prejudicou", "alias": "A"},
+        {"id": 4, "name": "Descobrir minha origem", "alias": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Qual seria seu apelido de super ser?",
+      "options": [
+        {"id": 1, "name": "O Terrível", "alias": "A"},
+        {"id": 2, "name": "O Protetor", "alias": "B"},
+        {"id": 3, "name": "O Implacável", "alias": "A"},
+        {"id": 4, "name": "A Esperança", "alias": "B"}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Como você reagiria se descobrisse que seu mentor é corrupto?",
+      "options": [
+        {"id": 1, "name": "Me tornaria pior que ele", "alias": "A"},
+        {"id": 2, "name": "Tentaria redimi-lo", "alias": "B"},
+        {"id": 3, "name": "Me afastaria de tudo", "alias": "C"},
+        {"id": 4, "name": "Usaria isso como vantagem", "alias": "A"}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O que faria se tivesse acesso a tecnologia avançada?",
+      "options": [
+        {"id": 1, "name": "Dominaria a cidade", "alias": "A"},
+        {"id": 2, "name": "Ajudaria no desenvolvimento médico", "alias": "B"},
+        {"id": 3, "name": "Venderia para o maior lance", "alias": "A"},
+        {"id": 4, "name": "Estudaria para melhorá-la", "alias": "C"}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Qual sua atitude em relação às leis?",
+      "options": [
+        {"id": 1, "name": "São obstáculos a serem superados", "alias": "A"},
+        {"id": 2, "name": "Devem ser seguidas para manter a ordem", "alias": "B"},
+        {"id": 3, "name": "São flexíveis dependendo da situação", "alias": "C"},
+        {"id": 4, "name": "Não se aplicam a alguém como eu", "alias": "A"}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Como lidaria com um criminoso comum?",
+      "options": [
+        {"id": 1, "name": "Daria um castigo exemplar", "alias": "A"},
+        {"id": 2, "name": "Entregaria às autoridades", "alias": "B"},
+        {"id": 3, "name": "Descobriria seus motivos antes de agir", "alias": "C"},
+        {"id": 4, "name": "Recrutaria para meu time", "alias": "A"}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Qual seria sua relação com outros super seres?",
+      "options": [
+        {"id": 1, "name": "Dominaria todos", "alias": "A"},
+        {"id": 2, "name": "Formaria uma equipe de heróis", "alias": "B"},
+        {"id": 3, "name": "Trabalharia sozinho", "alias": "C"},
+        {"id": 4, "name": "Manipularia eles para meus fins", "alias": "A"}
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "title": "Você seria um Super Vilão!",
+      "description": "Seus instintos mostram que você não teria muitos escrúpulos para alcançar seus objetivos. O poder provavelmente subiria à sua cabeça e você estaria mais interessado em dominar do que proteger."
+    },
+    "B": {
+      "title": "Você seria um Super Herói!",
+      "description": "Você tem o coração de um verdadeiro protetor! Seus valores morais e preocupação com os outros fariam de você um excelente herói, sempre lutando pela justiça e pelo bem comum."
+    },
+    "C": {
+      "title": "Você seria um Anti-Herói!",
+      "description": "Você não se encaixa perfeitamente nem como herói nem como vilão. Provavelmente seguiria seu próprio código de conduta, às vezes ajudando, outras vezes agindo por interesses pessoais."
+    }
+  }
+}
