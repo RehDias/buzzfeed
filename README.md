@@ -1,59 +1,78 @@
-# BuzzfeedProject
+# BuzzFeed: Você é Herói ou Vilão?
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Este projeto foi desenvolvido como parte dos estudos na Digital Innovation One (DIO), com o objetivo de aprender a criar projetos utilizando Angular.
 
-## Development server
+## Sobre o Projeto
 
-To start a local development server, run:
+O "BuzzFeed: Você é Herói ou Vilão?" é um quiz interativo que permite ao usuário responder a uma série de perguntas e, ao final, descobrir se seu perfil é mais próximo de um herói ou de um vilão. O projeto utiliza Angular para a criação dos componentes e lógica de interatividade, enquanto o Bootstrap é utilizado para estilização e responsividade da interface.
 
-```bash
-ng serve
+## Tecnologias Utilizadas
+
+- **Angular**: Framework para desenvolvimento de aplicações web SPA.
+- **TypeScript**: Linguagem utilizada para a implementação da lógica do quiz.
+- **Bootstrap**: Framework CSS para estilização responsiva.
+- **HTML5 e CSS3**: Marção e estilização da aplicação.
+
+## Estrutura do Projeto
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── quizz/              # Componente principal do quiz
+│   │   └── theme-toggle/       # Alternador de tema claro/escuro
+│   ├── pages/
+│   │   └── home/               # Página inicial
+│   │       ├── home.component.css
+│   │       ├── home.component.html
+│   │       └── home.component.ts
+│   ├── services/               # Serviços Angular
+│   ├── assets/
+│   │   ├── data/               # Dados em JSON
+│   │   └── images/             # Imagens do projeto
+│   ├── app.component.*         # Componente raiz
+│   ├── app.config.ts           # Configurações
+│   └── app.routes.ts           # Rotas
+├── styles.css                  # Estilos globais
+└── main.ts                     # Ponto de entrada
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Como Executar o Projeto
 
-## Code scaffolding
+Para rodar o projeto localmente, siga os passos abaixo:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+1. **Clone o repositório:**
+   ```sh
+   git clone https://github.com/RehDias/buzzfeed.git
+   ```
 
-```bash
-ng generate component component-name
-```
+2. **Acesse a pasta do projeto:**
+   ```sh
+   cd buzzfeed
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. **Instale as dependências:**
+   ```sh
+   npm install
+   ```
 
-```bash
-ng generate --help
-```
+4. **Execute o projeto:**
+   ```sh
+   ng serve
+   ```
 
-## Building
+5. **Acesse no navegador:**
+   ```
+   http://localhost:4200/
+   ```
 
-To build the project run:
+## Demonstração
+<div align="center" >
+  <img src="https://github.com/user-attachments/assets/8dd6246e-4980-4905-a17e-d8f60ed8be90" alt="imagem da página" width=70%  />
+</div>
 
-```bash
-ng build
-```
+## Status do Projeto
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+🚧 Em desenvolvimento 🚧
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
