@@ -1,1 +1,27 @@
-<p>quizz works!</p>
+<div class="container-fluid text-center align-items-center">
+  <div class="container">
+    <img src="assets/images/buzzfeed.png" alt="Logo" class="img-fluid" />
+    <h1 class="h3">{{ description }}</h1>
+  </div>
+
+  <div class="container" *ngIf=!finished style="margin-bottom: 30px;">
+    <h4>{{ questionSelected.question }}</h4>
+  </div>
+  
+  <div 
+  *ngIf=!finished
+  class="d-grid gap-3 d-md-flex-column justify-content-md-evenly btn-group" role="group">
+  <button
+    *ngFor="let option of questionSelected.options; let i = index"
+    (click)="selectOption(option.alias)"
+    class="btn btn-outline-info btn-lg rounded" data-bs-toggle="button" aria-pressed="true">
+      {{ option.name }}
+    </button>
+  </div>
+  
+  <div *ngIf=finished class="container text-center" >
+    <h3>O seu resultado é:</h3>
+    <p class="fs-4 fw-medium fst-italic">{{ answersSelected.title }}</p>
+    <p class="text-start fs-5 fst-italic">{{ answersSelected.description }}</p>
+  </div>
+</div>

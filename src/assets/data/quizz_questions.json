@@ -1,5 +1,4 @@
 {
-  "title": "Você seria um herói ou vilão?",
   "description": "Descubra se seus instintos superpoderosos são mais heróicos ou vilanescos!",
   "questions": [
     {
@@ -107,11 +106,11 @@
   ],
   "results": {
     "A": {
-      "title": "Você seria um Super Vilão!",
+      "title": "Você seria um Supervilão ou uma Supervilã!",
       "description": "Seus instintos mostram que você não teria muitos escrúpulos para alcançar seus objetivos. O poder provavelmente subiria à sua cabeça e você estaria mais interessado em dominar do que proteger."
     },
     "B": {
-      "title": "Você seria um Super Herói!",
+      "title": "Você seria um Super-herói ou uma Super-heroína!",
       "description": "Você tem o coração de um verdadeiro protetor! Seus valores morais e preocupação com os outros fariam de você um excelente herói, sempre lutando pela justiça e pelo bem comum."
     },
     "C": {

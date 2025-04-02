@@ -1,0 +1,8 @@
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" id="themeToggle" 
+         [checked]="themeService.isDarkMode()" 
+         (change)="themeService.toggleTheme()">
+  <label class="form-check-label" for="themeToggle">
+    <i [class]="themeService.isDarkMode() ? 'bi bi-moon-fill' : 'bi bi-sun-fill'"></i>
+  </label>
+</div>
